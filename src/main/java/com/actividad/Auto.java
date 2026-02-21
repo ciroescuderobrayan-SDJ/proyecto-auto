@@ -3,10 +3,10 @@ package com.actividad;
 public class Auto {
 
     // Atributos
-    String marca;
-    String modelo;
-    String color;
-    int velocidad;
+    public String marca;
+    public String modelo;
+    public String color;
+    public int velocidad;
 
     // Metodo para encender el auto
     public void encender() {
