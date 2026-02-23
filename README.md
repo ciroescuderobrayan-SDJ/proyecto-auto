@@ -1,6 +1,5 @@
 # Actividad: Estructura de Objetos en Java con Maven
 
-
 ## Descripcion del proyecto
 
 Este proyecto fue desarrollado en Java utilizando Maven. El objetivo principal es comprender la estructura basica de la Programacion Orientada a Objetos (POO) mediante la creacion de clases, atributos, metodos y objetos.
@@ -24,7 +23,7 @@ Un objeto es una instancia de una clase. En la clase Main se crean dos objetos d
 Un atributo es una variable que representa una caracteristica del objeto. La clase Auto contiene los siguientes atributos:
 marca, modelo, color y velocidad.
 
-Los atributos fueron declarados sin el modificador public, quedando con acceso por defecto, de acuerdo con las indicaciones del ejercicio.
+En esta practica, los atributos fueron declarados como public, cumpliendo con la regla obligatoria de la actividad que exige el uso del modificador public para todos los atributos.
 
 ### Metodo
 
@@ -46,12 +45,13 @@ mvn exec:java -Dexec.mainClass="com.actividad.Main"
 
 ## Reflexion sobre el uso de modificadores de acceso
 
-En esta practica no se utilizo el modificador de acceso private ni public en los atributos, ya que el objetivo era trabajar la estructura basica de los objetos sin aplicar encapsulamiento.
+En esta practica no se aplico encapsulamiento, ya que la consigna del ejercicio indicaba declarar los atributos como public para permitir su acceso directo desde la clase principal.
 
-En proyectos reales, el uso de private es importante para proteger los datos del objeto y controlar su acceso, lo cual se aplicara en ejercicios posteriores.
+En proyectos reales, lo mas comun es declarar los atributos como private y acceder a ellos mediante metodos (getters y setters), lo cual permite proteger los datos del objeto y controlar su modificacion. Ese enfoque se aplicara en ejercicios posteriores cuando se trabaje formalmente el encapsulamiento.
 
 ---
 
 ## Conclusion
 
-Con este proyecto se reforzaron los conceptos basicos de la Programacion Orientada a Objetos en Java, asi como el uso de Maven para la estructura y ejecucion de proyectos.
+Con este proyecto se reforzaron los conceptos basicos de la Programacion Orientada a Objetos en Java, incluyendo la definicion de clases, objetos, atributos y metodos, asi como el uso de Maven para la estructura y ejecucion del proyecto.
+
