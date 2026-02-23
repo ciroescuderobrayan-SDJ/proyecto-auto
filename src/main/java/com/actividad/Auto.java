@@ -10,7 +10,7 @@ public class Auto {
 
     // Metodo para encender el auto
     public void encender() {
-        System.out.println("El auto esta encendido");
+        System.out.println("El auto esta encendiendo");
     }
 
     // Metodo para acelerar el auto
